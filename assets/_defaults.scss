@@ -24,18 +24,18 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$color-link: #05b !default;
-$color-visited-link: #8440f1 !default;
+$color-link: rgb(99, 158, 231) !default;
+$color-visited-link: #9a62f5 !default;
 
-$body-background: white !default;
-$body-font-color: $gray-800 !default;
+$body-background: #343a40 !default;
+$body-font-color: white !default;
 $body-font-weight: normal !default;
 
 $body-min-width: 25rem !default;
-$container-max-width: 80rem !default;
+$container-max-width: none !default;
 
 $header-height: 3.5rem !default;
-$menu-width: 16rem !default;
+$menu-width: 21rem !default;
 $toc-width: 16rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width + $toc-width !default;
